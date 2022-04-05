@@ -88,7 +88,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: var(--second-title-color);
-background-color: #2196f3;
+
 
 }
 
@@ -105,7 +105,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--second-btn-color);
-background-color: var(--first-btn-color);
+
 
 }
 
@@ -127,3 +127,100 @@ letter-spacing: 0.03em;
 
 color: var(--text-color)
 }
+
+
+
+.about-pre-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--first-title-color)
+}
+
+.team-pre-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--header-color)
+}
+
+.team-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--first-title-color)
+}
+
+.team-after-title {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--text-color)
+}
+
+
+/*----------------------Підвал----------------*/
+.footer-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-color)
+}
+.footer-studio {
+font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+color: var(--header-color);
+}
+
+.footer-adress {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.26;
+
+letter-spacing: 0.03em;
+
+color:var(--second-title-color)
+}
+
+.footer-mail {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+
