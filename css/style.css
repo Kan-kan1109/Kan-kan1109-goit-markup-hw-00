@@ -19,6 +19,20 @@ body {
 .link {
     text-decoration: none;
 }
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 /*----------------Шапка сторінки--------------------*/
 
 .header-logo, .portfolio-logo {
@@ -28,7 +42,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     
-    color: var(--accent-color);
+    color: var(--accent-color);  
 }
 .header-studio, .portfolio-studio {
 font-family: 'Raleway';
