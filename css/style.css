@@ -59,7 +59,7 @@ color: var(--header-color);
  
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     
     color: var(--header-color); 
@@ -133,7 +133,7 @@ background: #2196F3;
     
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -221,9 +221,10 @@ color: var(--second-title-color);
 
 .footer-adress, .portfolio-footer-adress
  {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 1.26;
+line-height: 1.71;
 
 letter-spacing: 0.03em;
 
@@ -232,6 +233,7 @@ color:var(--second-title-color);
 
 .footer-mail, .portfolio-footer-mail
  {
+    font-style: normal;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -243,6 +245,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .footer-tel, .portfolio-footer-tel
  {
+    font-style: normal;
     font-weight: 400;
 font-size: 14px;
 line-height: 1;
@@ -259,7 +262,9 @@ color: rgba(255, 255, 255, 0.6);
 /*-------------------------------Основной контент*/
 
 .button-portfolio {
-    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal; 
+font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
 
